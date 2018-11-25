@@ -4,9 +4,14 @@ import SplitText from 'react-pose-text';
 import Iframe from 'react-iframe';
 import './anim.css';
 
-// Full React Pose Text documentation can be found at
-// https://popmotion.io/pose/api/react-pose-text
 
+var w = window.innerWidth;
+var h = window.innerHeight;
+/*window.addEventListener("resize", function() {
+var w = window.innerWidth;
+var h = window.innerHeight;
+} );*/
+console.log(w, h)
 const Sidebar = posed.div({
   exit: {
     x: '-100%'
