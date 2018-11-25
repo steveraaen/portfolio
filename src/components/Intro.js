@@ -41,13 +41,52 @@ function Intro() {
         </div>
       </Sidebar>
       <div className='main'>
+      	<div className='head'>Projects</div>
 	      <div className='project'>
-	      	<iframe src="//banners.itunes.apple.com/banner.html?partnerId=&aId=&bt=catalog&t=catalog_black&id=1435336096&c=us&l=en-US&w=180&h=150&store=apps" frameBorder={0} style={{overflowX:'hidden',overflowY: 'hidden',width:'180px',height:'150px',border:'1px', borderColor: 'coral', borderRadius: 12}}></iframe>
-	      	<div>{`fw bf. bfw bf wb b fw bbbbvhw fe 
-	      		    bjTwdjdbb dfwdqjhdj d bdffdfwbjf bdwfd b`}</div>
+	      	<iframe src="//banners.itunes.apple.com/banner.html?partnerId=&aId=&bt=catalog&t=catalog_white&id=1435336096&c=us&l=en-US&w=180&h=150&store=apps" frameBorder={0} style={{overflowX:'hidden',overflowY: 'hidden',width:'180px',height:'150px',border:'1px', borderColor: 'coral', borderRadius: 12}}></iframe>
+	      	<div className='blurb'>An iOS application built with React Native and MongoDB, using an Express server built on Nodejs.  </div>
+	      	<div className='blurb'></div>
+	      	<div className='blurb'>An iOS application built with React Native and MongoDB, using an Express server built on Nodejs.  </div>
+	      </div>
+	      <div className='project'>
+	      	<iframe src="//banners.itunes.apple.com/banner.html?partnerId=&aId=&bt=catalog&t=catalog_white&id=1342765203&c=us&l=en-US&w=180&h=150&store=apps" frameBorder={0} style={{overflowX:'hidden',overflowY: 'hidden',width:'180px',height:'150px',border:'1px', borderColor: 'coral', borderRadius: 12}}></iframe>
+	      	<div className='blurb'>An iOS application built with React Native and MongoDB, using an Express server built on Nodejs.  </div>
+	      	<div className='blurb'></div>
+	      	<div className='blurb'>An iOS application built with React Native and MongoDB, using an Express server built on Nodejs.  </div>
+	      </div>
+	      <div className='project'>
+	      	<iframe src="//banners.itunes.apple.com/banner.html?partnerId=&aId=&bt=catalog&t=catalog_white&id=1398506801&c=us&l=en-US&w=180&h=150&store=apps" frameBorder={0} style={{overflowX:'hidden',overflowY: 'hidden',width:'180px',height:'150px',border:'1px', borderColor: 'coral', borderRadius: 12}}></iframe>
+	      	<div className='blurb'>An iOS application built with React Native and MongoDB, using an Express server built on Nodejs.  </div>
+	      	<div className='blurb'></div>
+	      	<div className='blurb'>An iOS application built with React Native and MongoDB, using an Express server built on Nodejs.  </div>
 	      </div>
       </div>
     </div>
   );
 }
 export default Intro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
