@@ -1,6 +1,6 @@
 import React, { Component }from 'react';
 import posed, { PoseGroup} from 'react-pose';
-import SplitText from 'react-pose-text';
+
 import Iframe from 'react-iframe';
 import './anim.css';
 import ghl from "../GitHub-Mark-32px.png"
@@ -31,8 +31,16 @@ export default class  Intro extends Component {
     }
   render() {
     const skills = ["Business Manager", "Software Engineer", "Communicator", "Collaborator", "Empathizer"]
+    
+    const charPoses = {
+      exit: { opacity: 0, y: 20 },
+      enter: {
+        opacity: 1,
+        y: 0,
+        delay: ({ charIndex }) => charIndex * 30
+      }
+    };
     const Sidebar = posed.div({
-
       style:{},
       exit: {
         x: '-100%'
@@ -56,7 +64,7 @@ const ItemList = () => (
 )
 
   return (
-    <div className="container">
+    <div>
     <div className="sidebar">  
       <Sidebar initialPose="exit" pose={this.state.poseStatus}>
     
