@@ -4,6 +4,7 @@ import posed from 'react-pose';
 import { keyframes } from 'popmotion';
 import './components/conn.css'
 import Connections from './components/Connections.js'
+import Example from './components/Example.js'
 
 const Sidebar = posed.ul({
   open: {
@@ -42,6 +43,7 @@ export default class AppB extends React.PureComponent {
       <div>
         <Connections />
       </div>
+        <Example />
       </div>
     );
   }
