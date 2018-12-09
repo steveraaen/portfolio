@@ -1,6 +1,6 @@
 import React from 'react';
 
-var Nodesvg = () => 
+var Sjr = () => 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="80pt" height="80pt" viewBox="0 0 586.000000 586.000000"
  preserveAspectRatio="xMidYMid meet">
@@ -232,7 +232,7 @@ l-312 -5 0 233 0 233 258 -5 c141 -2 278 -8 305 -11z"/>
 </g>
 </svg>
 
-var NodesvgA = () => 
+var Node = () => 
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="120px" height="120px" viewBox="0 0 1000.000000 1000.000000"
  preserveAspectRatio="xMidYMid meet">
@@ -550,8 +550,8 @@ c-2 1662 -2 1667 18 1667 11 0 20 5 20 10 0 6 11 10 24 10 14 0 28 5 31 10 3
 </svg>
 
 var svgLogos = {
-	sjr: Nodesvg,
-	node: NodesvgA
+	sjr: Sjr,
+	node: Node
 }
 export default svgLogos
 

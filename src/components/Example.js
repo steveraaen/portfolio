@@ -62,8 +62,6 @@ export default class Example extends React.Component {
     return (
       <div>
         <svgLogos.node />
-       
-      
       <Fragment>
         <svg width="400" height="400" viewBox="0 0 520 500">
           <Icon pose={pathIds[this.state.pathIndex]} />
