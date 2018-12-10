@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import posed from 'react-pose';
 import { keyframes } from 'popmotion';
-import './anim.css';
+
 
 const Box = posed.div({
   left: { x: -100 },

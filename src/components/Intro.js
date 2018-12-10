@@ -66,16 +66,7 @@ const ItemList = () => (
   return (
     <div>
     <div className="sidebar">  
-      <Sidebar initialPose="exit" pose={this.state.poseStatus}>
-    
-        <h1>
-          <div>Steve Raaen</div>
-        </h1>
-        <div className="list">
-         <ItemList />
-          
-        </div>
-      </Sidebar>
+
       </div>
       <div className='main'>
         <div style={{color: 'black', fontSize: 16, fontWeight: 'bold'}}> Example Projects
