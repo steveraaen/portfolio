@@ -20,7 +20,7 @@ export default class Connections extends React.Component {
   }
 
   render() {
-    const { isVisible } = this.state;
+    const { isVisible } = this.state.isVisible;
     return <Box className="flash">xxxx</Box>;
   }
 }

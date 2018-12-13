@@ -28,7 +28,6 @@ export default class AppB extends React.PureComponent {
   }
 
   toggle = () => this.setState({ isOpen: !this.state.isOpen });
-
   render() {
     const { isOpen } = this.state;
 
@@ -41,7 +40,7 @@ export default class AppB extends React.PureComponent {
         <Item className="item">Hiking Blog</Item>
       </Sidebar>
       <div>
-        <Connections />
+       
       </div>
         <Example />
       </div>
